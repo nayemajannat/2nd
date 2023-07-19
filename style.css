@@ -122,11 +122,50 @@
     color: white;
     border: none;
   }
+
+
+  .funny{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   ;
+  }
+.funny-title{
+    text-align: right;
+}
+  .funny-text{
+
+    text-align: right;
+color: #f948b2;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+  }
+
+  .funny-p{
+    text-align: right;
+
+    font-size: 18px;
+line-height: 45px;
+  }
+
+  .btn-1{
+    text-align: right;
+    display: inline-flex;
+padding: 10px 20px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  }
   /* end of banner section  */
   .funny-video-title h2 {
     color: #0b0223;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
